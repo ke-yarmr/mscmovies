@@ -1,0 +1,206 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Courier';
+  color: white;
+  background-color: #7a7a7a;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+span {
+  color: #ffa500;
+}
+a:link {
+  color: white;
+}
+a:visited {
+  color: #121212;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.head-right {
+  float: right;
+  padding-top: 14px;
+}
+
+.head-right a {
+  margin-right: 30px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 4px;
+}
+
+.fas.menu {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 14px 0;
+  display: none;
+}
+
+.logo {
+  width: auto;
+  height: 50px;
+}
+
+.head-logo {
+  float: left;
+}
+
+header {
+  background-color: rgba(12, 12, 12, 0.7);
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.sns{
+  font-family: 'ヒラギノ角ゴ ProN W6';
+}
+
+.youtube {
+  background-color: #DA1725;
+  color: white;
+}
+
+.twitter{
+  background-color: rgb(29, 161, 242);
+}
+
+.line {
+  background-color: rgb(0, 185, 0);
+}
+
+.fab {
+  margin-right: 5px;
+}
+
+.title1 {
+  font-family: cursive;
+  font-size: 50px;
+}
+
+.title2 {
+  font-family: cursive;
+  font-size: 30px;
+  padding-left: 100px;
+}
+
+.top {
+  background-size: cover;
+  background-image: url(top_msc.jpg);
+  padding-top: 180px;
+  padding-bottom: 100px;
+  height: 600px;
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  top: 80px;
+  left: 100px;
+  line-height: 30px;
+}
+
+.heading {
+  padding-top: 100px;
+  margin-bottom: 50px;
+  border-bottom: 2px solid #000000;
+}
+
+.latest {
+  text-align: center;
+}
+
+.past {
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.plive-icon {
+  float: left;
+  width: 25%;
+}
+
+.icon {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.icon:hover {
+  opacity: 0.6;
+}
+
+.icon-title {
+  padding-bottom: 15px;
+}
+
+.end {
+  display: none;
+  margin-top: 60px;
+  padding: 5px 10px 5px 10px;
+  border: 2px solid #ffa500;
+  background-color: #ffa500;
+  border-radius: 7px;
+  color: #000000;
+}
+.end:hover {
+  opacity: 0.7;
+}
+
+.logounder {
+  font-size: 15px;
+  margin: 10px;
+  font-family: 'Osaka-Mono';
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+footer{
+  margin: 0 auto;
+  height: auto;
+  background-color: #ffbf00;
+  background-image: url(footer_msc.JPG);
+}
+
+.footer-left {
+  float: left;
+  line-height: 2px;
+}
+
+.footer-right{
+  float: right;
+  padding-top: 10px;
+  padding-right: 30px;
+}
+
+.logo2 {
+  height: auto;
+  width: 30%;
+  padding-bottom: 3px;
+}
+
+.clear {
+  clear: left;
+}
+
+/*スマホ表示での余白を消す*/
+.wrap {
+  overflow: hidden;
+}
